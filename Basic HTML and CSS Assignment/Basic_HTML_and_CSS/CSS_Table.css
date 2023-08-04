@@ -1,0 +1,22 @@
+/* CSS_Table.css */
+
+/* Background color for the table */
+table {
+  background-color: #f2f2f2;
+}
+
+/* Font color for table content */
+table td {
+  color: #333;
+}
+
+/* Hover selector for table rows */
+table tr:hover {
+  background-color: #ffc;
+}
+
+/* Border for the table */
+table {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
