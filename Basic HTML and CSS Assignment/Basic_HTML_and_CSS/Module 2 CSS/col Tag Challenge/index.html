@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE MASTER</title>
+    <style>
+        /* Define styles for columns */
+        .column {
+            width: 50%;
+            float: left;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        /* Clear floats after columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column" style="background-color: #f2f2f2;">
+            <h2>CSS</h2>
+            <p>This is the content of column 1.</p>
+        </div>
+        <div class="column" style="background-color: #dddddd;">
+            <h2>HTML</h2>
+            <p>This is the content of column 2.</p>
+        </div>
+    </div>
+</body>
+</html>
