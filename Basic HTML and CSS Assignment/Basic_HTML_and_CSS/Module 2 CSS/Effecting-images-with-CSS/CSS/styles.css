@@ -1,0 +1,17 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border: 5px solid #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
