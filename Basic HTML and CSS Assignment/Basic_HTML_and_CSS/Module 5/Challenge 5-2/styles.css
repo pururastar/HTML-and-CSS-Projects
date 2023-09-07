@@ -1,0 +1,11 @@
+/* Add this CSS to your style.css file */
+
+/* Center the text inside the footer */
+footer {
+    text-align: center;
+}
+
+/* Make the text bold */
+footer p {
+    font-weight: bold;
+}
