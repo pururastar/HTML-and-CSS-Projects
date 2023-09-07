@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Overlay Fade</title>
+    <style>
+        /* Container for the image and overlay */
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 400px; /* Adjust the max-width as needed */
+        }
+
+        /* Style for the image */
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        /* Style for the overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0; /* Initially hidden */
+            transition: .5s ease; /* Smooth transition effect */
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+        }
+
+        /* Style for text on the overlay */
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /* Hover effect to show overlay */
+        .container:hover .overlay {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <h2>Image Overlay Fade</h2>
+    <div class="container">
+        <img src="D:\Users\Rodrigo\Desktop\WEBDEVELOPER\HTML-and-CSS-Projects\Basic HTML and CSS Assignment\Basic_HTML_and_CSS\Module 5\Challenge 5-8\web.jpg" alt="Image">
+        <div class="overlay">
+            <div class="text">Hover to see the overlay effect</div>
+        </div>
+    </div>
+</body>
+</html>
