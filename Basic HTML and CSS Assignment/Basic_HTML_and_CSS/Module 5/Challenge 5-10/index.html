@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video with Text Overlay</title>
+    <style>
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        video {
+            width: 100%;
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <video autoplay muted loop>
+            <source src="D:\Users\Rodrigo\Desktop\WEBDEVELOPER\HTML-and-CSS-Projects\Basic HTML and CSS Assignment\Basic_HTML_and_CSS\Module 5\Challenge 5-10\video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="text-overlay">
+            <h2>Text Overlay</h2>
+            <p>This is some text overlaid on the video.</p>
+        </div>
+    </div>
+</body>
+</html>
+
