@@ -1,0 +1,8 @@
+/* Add this CSS to your style.css file */
+
+/* Define the hover effect */
+.hover-effect:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+}
