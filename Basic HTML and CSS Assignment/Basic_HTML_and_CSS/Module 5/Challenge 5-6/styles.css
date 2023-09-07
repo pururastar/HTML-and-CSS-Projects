@@ -1,0 +1,26 @@
+/* Add this CSS to your style.css file */
+
+/* Style the container */
+.container {
+    display: flex; /* Use flexbox for two-column layout */
+    justify-content: space-between; /* Add space between columns */
+    background-color: #f0f0f0; /* Background color for the container */
+    padding: 20px;
+}
+
+/* Style the columns */
+.column {
+    flex: 1; /* Equal width for both columns */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the text inside the columns */
+.column h2 {
+    color: #333; /* Font color for headings */
+}
+
+.column p {
+    color: #666; /* Font color for paragraphs */
+    font-size: 18px; /* Font size for paragraphs */
+}
