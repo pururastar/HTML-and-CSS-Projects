@@ -1,0 +1,19 @@
+/* Add this CSS to your style.css file */
+
+/* Center the image */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+/* Apply a CSS filter */
+img {
+    filter: grayscale(50%); /* You can adjust the filter as desired */
+}
+
+/* Give the image rounded edges */
+img {
+    border-radius: 20px; /* Adjust the border radius as desired */
+}
