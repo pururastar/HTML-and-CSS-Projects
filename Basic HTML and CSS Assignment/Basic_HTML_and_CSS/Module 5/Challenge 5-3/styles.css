@@ -1,0 +1,17 @@
+/* Add this CSS to your style.css file */
+
+/* Add a border to the table */
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+/* Add padding to table cells */
+td, th {
+    padding: 10px;
+}
+
+/* Add a background color to the top row */
+th {
+    background-color: #f0f0f0;
+}
