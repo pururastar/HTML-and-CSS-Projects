@@ -1,0 +1,42 @@
+/* Add this CSS to your style.css file */
+
+/* Style the fixed navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Background color for the navbar */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Style the navbar links */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* Font color for the navbar links */
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar a:hover {
+    color: #ff5722; /* Font color on hover */
+}
+
+/* Style the page content */
+.content {
+    margin-top: 50px; /* Ensure content is below the fixed navbar */
+    text-align: center;
+}
